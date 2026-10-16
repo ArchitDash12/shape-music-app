@@ -4,7 +4,19 @@
 ### ⚡ 物理的リズム音響 // PHYSICS-DRIVEN AUDIOVISUAL PLAYGROUND ⚡
 
 <p align="center">
-  <img src="./docs/app-overview.png" alt="Acid Wave Vapor Strings Main Interface" width="100%" style="border-radius: 10px; border: 1px solid rgba(0, 243, 255, 0.4); box-shadow: 0 0 25px rgba(255, 42, 133, 0.25);" />
+  <a href="https://acidwave-vaporstrings.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/▶_LIVE_DEMO-acidwave--vaporstrings.vercel.app-00f3ff?logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://acidwave-vaporstrings.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/DEPLOYMENT-VERCEL-black?logo=vercel&logoColor=white" alt="Vercel Deployment" />
+  </a>
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-bbf400" alt="Status Online" />
+</p>
+
+<p align="center">
+  <a href="https://acidwave-vaporstrings.vercel.app/" target="_blank">
+    <img src="./docs/app-overview.png" alt="Acid Wave Vapor Strings Main Interface" width="100%" style="border-radius: 10px; border: 1px solid rgba(0, 243, 255, 0.4); box-shadow: 0 0 25px rgba(255, 42, 133, 0.25);" />
+  </a>
 </p>
 
 <!-- Compact, sleek badges -->
@@ -23,9 +35,10 @@
   <strong>An interactive audio-visual instrument where physics meets musical synthesis. Play vibrating guitar strings, strike vintage 808 drums, curve moving light orbs with cosmic gravity wells, and transcribe every note in real time to live scrolling sheet music.</strong>
 </p>
 
-[📸 Screenshots](#-screenshots) • [🌟 Core Features](#-core-features) • [🔬 Physics & Audio Math](#-physics--audio-engine) • [🎮 Controls](#-controls--hotkeys) • [🚀 Quick Start](#-quick-start)
+[🌐 Live App](https://acidwave-vaporstrings.vercel.app/) • [📸 Screenshots](#-screenshots) • [🌟 Core Features](#-core-features) • [🔬 Physics & Audio Math](#-physics--audio-engine) • [🎮 Controls](#-controls--hotkeys) • [🚀 Quick Start](#-quick-start)
 
 </div>
+
 
 ---
 
@@ -120,12 +133,19 @@ $$\mathbf{v}' = \mathbf{v} - (1 + e)(\mathbf{v} \cdot \mathbf{n})\mathbf{n}$$
 
 ## 🚀 Quick Start
 
-### 1. Clone & Install
+### 🌐 Live Production Deployment
+Experience the live application right in your browser (no installation needed):  
+👉 **[https://acidwave-vaporstrings.vercel.app/](https://acidwave-vaporstrings.vercel.app/)**
+
+### 💻 Local Development Setup
+
+#### 1. Clone & Install
 ```bash
 git clone <repository-url>
 cd vapor-strings
 npm install
 ```
+
 
 ### 2. Launch Development Server
 ```bash
